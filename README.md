@@ -10,22 +10,27 @@ steps to run the code:
 
 3. Furtherly , You will get the code as shown as follows
    
-  import Dashboard from './components/Dashboard';
-  import EmergencyAlert from './components/EmergencyAlert';
-  import Login from './components/login';
-  import Settings from './components/Settings';
-  const App = () => {
+
+import Dashboard from './components/Dashboard';
+import EmergencyAlert from './components/EmergencyAlert';
+import Login from './components/login';
+import Settings from './components/Settings';
+
+
+const App = () => {
   return (
     <div>
       <Dashboard />
-      {/* <EmergencyAlert />
+      <EmergencyAlert />
       <Login />
-      <Settings /> */}
+      <Settings /> 
+
     </div>
   );
-  };
+};
 
-  export default App;
+export default App;
+
 
 
 4.With these interface you need to render whatever the page you want to render you need to remove it from the comments 
