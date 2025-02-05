@@ -13,9 +13,9 @@ steps to run the code:
   - Can see in the App.jsx file 
   - Regarding what the file you want to render it .
       <Dashboard />
-      {/* <EmergencyAlert />
+      <EmergencyAlert />
       <Login />
-      <Settings /> */}
+      <Settings /> 
   - From these 4 you can select one no need of css file to render    
 
 4.With these interface you need to render whatever the page you want to render you need to remove it from the comments 
