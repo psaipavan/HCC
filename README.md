@@ -21,7 +21,6 @@ steps to run the code:
       {/* <EmergencyAlert />
       <Login />
       <Settings /> */}
-
     </div>
   );
   };
@@ -29,12 +28,11 @@ steps to run the code:
   export default App;
 
 
-  With these interface you need to render whatever the page you want to render you need to remove it from the comments 
+4.With these interface you need to render whatever the page you want to render you need to remove it from the comments 
 
-4. Then use the commanand npm run dev in the terminal
+5. Then use the commanand npm run dev in the terminal
 
-5. You'll get a link showing that the LocalServer is started then click on it
+6. You'll get a link showing that the LocalServer is started then click on it
 
-6.It will open in default web browser 
+7.It will open in default web browser 
 
-  With 
