@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 10px 0;
+  }
+  
+  p {
+    color: gray;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background-color: darkblue;
+  }
+  
+  .or {
+    margin: 15px 0;
+    color: gray;
+  }
+  
+  .google {
+    background-color: red;
+    color: white;
+  }
+  
+  .github {
+    background-color: black;
+    color: white;
+  }
+  
+  .apple {
+    background-color: black;
+    color: white;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
